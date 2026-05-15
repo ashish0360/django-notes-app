@@ -46,6 +46,7 @@ pipeline{
             steps{
                 script{
                     docker_compose()
+                    echo "Pipeline is working"
                 }
             }
         }
